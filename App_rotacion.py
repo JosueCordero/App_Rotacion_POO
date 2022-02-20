@@ -8,6 +8,13 @@ import matplotlib.pyplot as plt
 
 
 class Aplicacion:
+    """Aplicacion la cual consite en rotar una figura, en este caso elegi la banda de Moebius
+    como figura a rotar a travez de los ejes xyz 
+    
+    La logica principal de la aplicacion ya la tenia hecha y lo que ahora implemente fue 
+    modularizarla en 3 clases diferentes para tener una buena aplicacion del paradigma de POO 
+    
+    """
     #Constructor
     def __init__(self, window):
         # Initializations 
@@ -73,7 +80,6 @@ class RotacionEnElMismoEJE:
         self.fig = fig
 
         
-
     def rotar_figura(self):
         #Variables (Punto inicial y angulo(radianes))
         
@@ -113,8 +119,6 @@ class RotacionEnElMismoEJE:
                 
         ax.plot_surface(figura.x,figura.y,figura.z,cmap="viridis")       
                 
-
-
         #ax.scatter3D(0,0,0, c = 'r')
         plt.show()
 
