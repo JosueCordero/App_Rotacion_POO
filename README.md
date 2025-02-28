@@ -1,23 +1,35 @@
-# Rotation in the x,y and z axis of a Möbius band 
+# Möbius Band Rotation in X, Y, and Z Axes  
 
-------------
+This project is an interactive Möbius band rotation app, allowing users to rotate the band along the **X, Y, and Z axes** by specifying the degree of rotation and the initial point.  
 
-I made an app where you can rotate a Möbius band, in the axis that you want, and specify the degree to rotate. Also, you can specify the initial point.
+## Features  
+- Rotate the Möbius band in **any axis (X, Y, Z)**  
+- Specify the **degree of rotation**  
+- Set a **custom initial point**  
+- Improved design using **Object-Oriented Programming (OOP)**  
 
-In my first attempt I have tried using a structured paradigm (cde9da0 commit) but after watched POO curse, I made it in Object-Oriented paradigm (last commit).  
+## Development Approach  
+- **First attempt:** Implemented using a **structured paradigm** (`cde9da0` commit).  
+- **Final version:** Refactored into an **Object-Oriented Paradigm (OOP)** after learning best practices (latest commit).  
 
-![Interfaz de la App](App_Rotacion_Moebius.png "App")
+## Screenshots  
 
- *App Interface*
- 
-![Banda de moebius](Banda_Moebius.png "Möbius Band")
+<div align="center">
+    <h3>App Interface</h3>
+    <img src="App_Rotacion_Moebius.png" alt="App Interface">
+</div>  
 
-*Möbius band without rotation*
+<div align="center">
+    <h3>Möbius Band (Before Rotation)</h3>
+    <img src="Banda_Moebius.png" alt="Möbius Band">
+</div>  
 
-![Banda de Movius rotada 1](x_and_y_rotation.png "X rotation")
+<div align="center">
+    <h3>Möbius Band with X Rotation</h3>
+    <img src="x_rotation.png" alt="X Rotation">
+</div>  
 
-*Möbius band with a X rotation*
-
-![Banda de Movius rotada 2](x_rotation.png "X and Y rotation")
-
-*Möbius band with a X rotation and a Y rotation*
+<div align="center">
+    <h3>Möbius Band with X and Y Rotation</h3>
+    <img src="x_and_y_rotation.png" alt="X and Y Rotation">
+</div> 
